@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Student Dashboard</title>
+    <link rel="stylesheet" href="style/style.css">
+</head>
+
+<body>
+    <!-- opening  and closing -->
+    <header>
+        <h1>Welcome to ...........!</h1>
+        <nav>
+            <ul>
+                <li><a href="#student_profile">Profile</a></li>
+                <li><a href="#courses">Courses</a></li>
+                <li><a href="#from">From</a></li>
+                <li><a href="#media">Media</a></li>
+               
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <!--  -->
+        <hr />
+        <section id="student_profile">
+            <h2>Student Profile</h2>
+            <!-- alt + shift + down/up arrow -->
+            <p> <strong>Name: </strong> Laxmi Akkennawar </p>
+            <p> <strong>Student ID: </strong> LA_100 </p>
+            <p> <strong>Email:</strong> akkennawarlucky@email.com </p>
+            <img src="data:image/png;base64,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" alt="JD" width="150" height="150" />
+        </section>
+
+        <section id="courses">
+            <h2>Enrollment Courses</h2>
+
+            <table border="2" cellpadding='10' cellspacing='0'>
+                <thead>
+                    <th>Course Code</th>
+                    <th>Course Name</th>
+                    <th>Credit</th>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>HTML5</td>
+                        <td>Hyper Text Markup Language</td>
+                        <td>4</td>
+                    </tr>
+                     <tr>
+                        <td>HTML5</td>
+                        <td>Hyper Text Markup Language</td>
+                        <td>4</td>
+                    </tr>
+                     <tr>
+                        <td>HTML5</td>
+                        <td>Hyper Text Markup Language</td>
+                        <td>4</td>
+                    </tr>
+                     <tr>
+                        <td>HTML5</td>
+                        <td>Hyper Text Markup Language</td>
+                        <td>4</td>
+                    </tr>
+                </tbody>
+            </table>
+        </section>
+  <hr />
+        <section>
+            <h2>📝 Feedback Form </h2>
+            <form>
+                <label for="name">Name: </label>
+                <input type="text" id="name">
+
+                <h3>Rate this portal</h3>
+                <input type="radio" name="rating" id="good">
+                <label for="good">Good</label>
+                    <br>
+                <input type="radio" name="rating" id="ok">
+                  <label for="ok">Okay</label>
+                    <br>
+                <input type="radio" name="rating" id="bad">
+                  <label for="bad">Bad</label>
+                    <br>
+                    <br>
+                    
+                <label for="message">Message:</label>
+                    <br>
+                <textarea id="message" cols="40" rows="4"></textarea>
+                    <br>
+                    <br>
+                    </form>
+                    <hr/>
+                <select>
+                    <option>Select below Options</option>
+                    <option value="HTML5">Hyper Text Markup Language</option>
+                    <option value="CSS3">Cascading Style Sheet</option>
+                    <option value="JS">Java Script</option>
+                </select>
+                     <br>
+                     <br>
+                <input type="checkbox" id="choice">
+                   <label for="choice">Subscribe to our News Letter</label>
+                     <br>
+                     <br>
+                <input type="button" value="Submit">
+            </form>
+        </section>
+        <hr/>
+   <section id="media">
+    <h2>🎬 Intro Video</h2>
+    <iframe width="560" height="315" src="https://www.vecteezy.com/video/2140013-waterfall-in-a-wild-nature" frameborder="0" allowfullscreen></iframe>
+    <h3>🎧 Welcome Audio</h3>
+    <audio controls>
+      <source src="mp3.mp3" type="audio/mpeg" />
+      Your browser does not support the audio element.
+    </audio>
+    <h3>📄 Embedded Document</h3>
+    <iframe src="https://www.wikipedia.org" width="100%" height="400" title="Wikipedia"></iframe>
+    <hr />
+  </section>
+
+  <footer>
+    <p>&copy; 2025 XYZ College | Contact: support@xyzcollege.edu</p>
+    <p>All rights reserved | <a href="#">Back to Top</a></p>
+  </footer>
+    </main>
+</body>
+
+</html>
